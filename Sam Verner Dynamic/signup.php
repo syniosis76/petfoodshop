@@ -9,7 +9,7 @@
 <body>
     <header class="header"> <!--cart and navigation-->
         <div class="header-box">
-            <a href="account.html" class="account-text">Account</a>
+            <a href="account.php" class="account-text">Account</a>
             <div class="header__cart">
                 <ul>
                   <li class="header__submenu" id="submenu">
@@ -31,7 +31,7 @@
                         <tbody></tbody>
                       </table>
                       <p class="total-container" id="total-price"></p>
-                      <a href="thankyou.html" id="checkout-btn" class="cart-btn">Checkout</a>
+                      <a href="thankyou.php" id="checkout-btn" class="cart-btn">Checkout</a>
                       <a href="#" id="clear-cart" class="cart-btn">Clear Cart</a>
                     </div>
                   </li>
@@ -42,14 +42,14 @@
     <div class="card" id="grid"></div>
     <nav>
         <div class="logo">
-            <a href="home.html">        <!--content-->
+            <a href="home.php">        <!--content-->
                 <img src="pics/logo.png" class="logo-image">
             </a>
         </div>
         <div class="nav-items">
-            <li><a href="about-us.html">About us</a></li>
-            <li><a href="animals.html">Animals</a></li>
-            <li><a href="support.html">Support</a></li>
+            <li><a href="about-us.php">About us</a></li>
+            <li><a href="animals.php">Animals</a></li>
+            <li><a href="support.php">Support</a></li>
         </div>
         <form action="#">
             <input type="search" class="search-data" placeholder="Search..." required>
@@ -70,7 +70,7 @@
                 <input type="checkbox" class="tos"required>I have read and agree to the following terms of service<br>
             </div>
             <div class="login-button-background">
-                <a href="profile-settings.html" class="login-button">Signup</a>
+                <a href="profile-settings.php" class="login-button">Signup</a>
             </div>
         </div>
     </div>     

@@ -9,7 +9,7 @@
 <body>
     <header class="header"> <!--cart and navigation-->
         <div class="header-box">
-            <a href="account.html" class="account-text">Account</a>
+            <a href="account.php" class="account-text">Account</a>
             <div class="header__cart">
                 <ul>
                   <li class="header__submenu" id="submenu">
@@ -31,7 +31,7 @@
                         <tbody></tbody>
                       </table>
                       <p class="total-container" id="total-price"></p>
-                      <a href="thankyou.html" id="checkout-btn" class="cart-btn">Checkout</a>
+                      <a href="thankyou.php" id="checkout-btn" class="cart-btn">Checkout</a>
                       <a href="#" id="clear-cart" class="cart-btn">Clear Cart</a>
                     </div>
                   </li>
@@ -42,14 +42,14 @@
     <div class="card" id="grid"></div>
     <nav>
         <div class="logo">                  <!--content-->
-            <a href="home.html">
+            <a href="home.php">
                 <img src="pics/logo.png" class="logo-image">
             </a>
         </div>
         <div class="nav-items">
-            <li><a href="about-us.html">About us</a></li>
-            <li><a href="animals.html">Animals</a></li>
-            <li><a href="support.html">Support</a></li>
+            <li><a href="about-us.php">About us</a></li>
+            <li><a href="animals.php">Animals</a></li>
+            <li><a href="support.php">Support</a></li>
         </div>
         <form action="#">
             <input type="search" class="search-data" placeholder="Search..." required>
@@ -67,10 +67,10 @@
             <input type="text" class="email-address" placeholder="Change Email Address" required><br>
             <input type="text" class="password" placeholder="Change Password" required><br>
             <div class="login-button-background">
-                <a href="profile-settings.html" class="login-button">Save Changes</a>
+                <a href="profile-settings.php" class="login-button">Save Changes</a>
             </div>
             <div class="homepage-back-background">
-                <a href="home.html" class="homepage-back">Back To Home</a>
+                <a href="home.php" class="homepage-back">Back To Home</a>
             </div>
         </div>
     </div>

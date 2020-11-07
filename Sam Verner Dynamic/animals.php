@@ -9,7 +9,7 @@
 <body>
     <header class="header"> <!--cart and navigation-->
         <div class="header-box">
-            <a href="account.html" class="account-text">Account</a>
+            <a href="account.php" class="account-text">Account</a>
             <div class="header__cart">
                 <ul>
                   <li class="header__submenu" id="submenu">
@@ -31,7 +31,7 @@
                         <tbody></tbody>
                       </table>
                       <p class="total-container" id="total-price"></p>
-                      <a href="thankyou.html" id="checkout-btn" class="cart-btn">Checkout</a>
+                      <a href="thankyou.php" id="checkout-btn" class="cart-btn">Checkout</a>
                       <a href="#" id="clear-cart" class="cart-btn">Clear Cart</a>
                     </div>
                   </li>
@@ -41,27 +41,27 @@
     </header>
     <nav>
         <div class="logo">      <!--content and grid-->
-            <a href="home.html">
+            <a href="home.php">
                 <img src="pics/logo.png" class="logo-image">
             </a>
         </div>
         <div class="nav-items">
-            <li><a href="about-us.html">About us</a></li>
-            <li><a href="animals.html">Animals</a></li>
-            <li><a href="support.html">Support</a></li>
+            <li><a href="about-us.php">About us</a></li>
+            <li><a href="animals.php">Animals</a></li>
+            <li><a href="support.php">Support</a></li>
         </div>
         <form action="#">
             <input type="search" class="search-data" placeholder="Search..." required>
         </form>
     </nav>
     <div class="category-background">
-        <a href="dog.html" class="category">Dog</a><br>
-        <a href="cat.html" class="category">Cat</a><br>
-        <a href="fish.html" class="category">Fish</a><br>
-        <a href="small-pets.html" class="category">Small Pets</a><br>
-        <a href="reptile.html" class="category">Reptile</a><br>
-        <a href="bird.html" class="category">Bird</a><br>
-        <a href="horse.html" class="category">Horse</a>
+        <a href="dog.php" class="category">Dog</a><br>
+        <a href="cat.php" class="category">Cat</a><br>
+        <a href="fish.php" class="category">Fish</a><br>
+        <a href="small-pets.php" class="category">Small Pets</a><br>
+        <a href="reptile.php" class="category">Reptile</a><br>
+        <a href="bird.php" class="category">Bird</a><br>
+        <a href="horse.php" class="category">Horse</a>
     </div>
     <div class="card" id="grid">
         <div class="card1">

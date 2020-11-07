@@ -9,7 +9,7 @@
 <body>
     <header class="header"> <!--cart and navigation-->
         <div class="header-box">
-            <a href="account.html" class="account-text">Account</a>
+            <a href="account.php" class="account-text">Account</a>
             <div class="header__cart">
                 <ul>
                   <li class="header__submenu" id="submenu">
@@ -31,7 +31,7 @@
                         <tbody></tbody>
                       </table>
                       <p class="total-container" id="total-price"></p>
-                      <a href="thankyou.html" id="checkout-btn" class="cart-btn">Checkout</a>
+                      <a href="thankyou.php" id="checkout-btn" class="cart-btn">Checkout</a>
                       <a href="#" id="clear-cart" class="cart-btn">Clear Cart</a>
                     </div>
                   </li>
@@ -42,14 +42,14 @@
     <div class="card" id="grid"></div>
     <nav>
         <div class="logo">              <!--image links setup-->
-            <a href="home.html">
+            <a href="home.php">
                 <img src="pics/logo.png" class="logo-image">
             </a>
         </div>
         <div class="nav-items">
-            <li><a href="about-us.html">About us</a></li>
-            <li><a href="animals.html">Animals</a></li>
-            <li><a href="support.html">Support</a></li>
+            <li><a href="about-us.php">About us</a></li>
+            <li><a href="animals.php">Animals</a></li>
+            <li><a href="support.php">Support</a></li>
         </div>
         <form action="#">
             <input type="search" class="search-data" placeholder="Search..." required>
@@ -58,31 +58,31 @@
     <div class="content">
         <div class="image-header">
             <img src="pics/titleimage.png" class="homepage-header">
-                <a href="animals.html">
+                <a href="animals.php">
                     <img src="pics/buynow.png" class="buynow-image">
                 </a>
         </div> <br><br>
         <div class="animals-header-background">
             <div class="animals-header">
-                <a href="dog.html">
+                <a href="dog.php">
                     <img src="pics/animalLogo/dog.png" class="animal-list-logo">
                 </a>
-                <a href="cat.html">
+                <a href="cat.php">
                     <img src="pics/animalLogo/cat.png" class="animal-list-logo">
                 </a>
-                <a href="fish.html">
+                <a href="fish.php">
                     <img src="pics/animalLogo/fish.png" class="animal-list-logo">
                 </a>
-                <a href="small-pets.html">
+                <a href="small-pets.php">
                     <img src="pics/animalLogo/smallpets.png" class="animal-list-logo">
                 </a>
-                <a href="reptile.html">
+                <a href="reptile.php">
                     <img src="pics/animalLogo/reptile.png" class="animal-list-logo">
                 </a>
-                <a href="bird.html">
+                <a href="bird.php">
                     <img src="pics/animalLogo/bird.png" class="animal-list-logo">
                 </a>
-                <a href="horse.html">
+                <a href="horse.php">
                     <img src="pics/animalLogo/horse.png" class="animal-list-logo">
                 </a>
             </div>
