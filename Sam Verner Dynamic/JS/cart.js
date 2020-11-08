@@ -232,7 +232,7 @@
       const cartProducts = cartContent.querySelector("tbody").innerHTML;
       if (cartProducts !== "" && confirm("Are you sure you want to checkout?")) {
         clearCart();
-        window.location.href = "thankyou.html"
+        window.location.href = "thankyou.php"
       } else {
         return;
       }
