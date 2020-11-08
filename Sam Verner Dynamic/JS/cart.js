@@ -89,7 +89,7 @@
               ${product.name}
             </td>
             <td>$${product.price}</td>
-            <td><input type="number" id="quantity" name="quantity" data-id="${product.id}" value="${product.quantity}" min="1" max="5" style="-webkit-appearance:none"></td>
+            <td><input type="number" id="quantity" name="quantity" data-id="${product.id}" value="${product.quantity}" min="1" max="5" style="-webkit-appearance:none;"></td>
             <td>$${product.price * product.quantity}</td>
             <td><a href="#" data-id="${product.id}" class="remove">X</a></td>
             </tr>
