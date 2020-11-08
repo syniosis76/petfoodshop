@@ -82,6 +82,7 @@
       // cart items markup and the appropriate details
       if (lsContent !== null) {
         for (let product of lsContent) {
+          console.log(product.quantity)
           productMarkup += `
             <tr>
             <td><img class="cart-image" src="${product.image}" alt="${product.name}" ></td>
