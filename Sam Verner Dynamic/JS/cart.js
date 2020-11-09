@@ -82,7 +82,6 @@
       // cart items markup and the appropriate details
       if (lsContent !== null) {
         for (let product of lsContent) {
-          console.log(product.quantity)
           productMarkup += `
             <tr>
             <td><img class="cart-image" src="${product.image}" alt="${product.name}" ></td>
@@ -90,7 +89,7 @@
               ${product.name}
             </td>
             <td>$${product.price}</td>
-            <td><input type="number" name="quantity" data-id="${product.id}" value="${product.quantity}" min="1" max="5"></td>
+            <td><input type="number" id="quantity" name="quantity" data-id="${product.id}" value="${product.quantity}" min="1" max="5"></td>
             <td>$${product.price * product.quantity}</td>
             <td><a href="#" data-id="${product.id}" class="remove">X</a></td>
             </tr>
@@ -233,7 +232,7 @@
       const cartProducts = cartContent.querySelector("tbody").innerHTML;
       if (cartProducts !== "" && confirm("Are you sure you want to checkout?")) {
         clearCart();
-        window.location.href = "thankyou.php"
+        window.location.href = "thankyou.html"
       } else {
         return;
       }
