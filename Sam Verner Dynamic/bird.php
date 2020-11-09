@@ -70,8 +70,8 @@
             <img src="pics/bird/bird1.jpg" alt="Bird Food" onclick="loadpage('product-detail.php?id=19')">
             <div class="card__info">
                 <h1 class="card__title"><?php echo $test1a['title'];?></h1>
-                <p class="card__price"><?php echo $test1a['title'];?></p>
-                <p class="card-text"><?php echo $test1a['title'];?></p>
+                <p class="card__price"><?php echo $test1a['price'];?></p>
+                <p class="card-text"><?php echo $test1a['info'];?></p>
                 <input type="number" id="quantity" name="quantity" data-id="19" value="1" min="1" max="5">
                 <button class="card__btn add-to-cart" data-id="19">ADD TO CART</button>
             </div>
