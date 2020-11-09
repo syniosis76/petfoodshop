@@ -11,7 +11,7 @@ if (!$con) {
   die("Connection failed: " . mysqli_connect_error());
 }
 
-$test1 = "SELECT title FROM Product WHERE id = 1";
+$test1 = "SELECT * FROM Product WHERE id = 1";
 $test1r = mysqli_query($con, $test1);
 $test1a = mysqli_fetch_assoc($test1r);
 
