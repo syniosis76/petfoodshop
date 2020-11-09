@@ -69,7 +69,8 @@
             <div class="card__info">
                 <h1 class="card__title">Bird Food</h1>
                 <p class="card__price">$100</p>
-                <p class="cardtext">Some text about the very<br>interesting horse food<br>we have here</p>
+                <p class="card-text">Some text about the very<br>interesting horse food<br>we have here</p>
+                <input type="number" id="quantity" name="quantity" data-id="${product.id}" value="${product.quantity}" min="1" max="5">
                 <button class="card__btn add-to-cart" data-id="19">ADD TO CART</button>
             </div>
         </div>
