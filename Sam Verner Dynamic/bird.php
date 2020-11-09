@@ -1,11 +1,12 @@
 
 <?php 
-    include('libs/config.php'); 
 
-    $q = "SELECT * FROM 'Product' WHERE id = 1";
-    $r = mysqli_query($dbc, $q);
+include('libs/config.php'); 
 
-    $page = mysqli_fetch_assoc($r);
+$q = "SELECT * FROM 'Product' WHERE id = 1";
+$r = mysqli_query($dbc, $q);
+
+$page = mysqli_fetch_assoc($r);
 
 ?>
 <!DOCTYPE html>
