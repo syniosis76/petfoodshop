@@ -135,7 +135,7 @@
             </div>
         </div>
         <div class="card8">
-            <img src="pics/small-pets/small-pets1.jpg" alt="Small Pet Food" class="card__image" onclick="loadpage('product-detail.php?id=74')">
+            <img src="pics/small-pets/small-pets1.jpg" alt="Small Pet Food" class="card__image" onclick="loadpage('product-detail.php?data-id=74')">
             <div class="card__info">
                 <h1 class="card__title">Small Pet Food</h1>
                 <p class="card__price">$10</p>
