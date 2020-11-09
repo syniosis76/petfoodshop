@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>About us</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="CSS/product-detail.css" rel="stylesheet"> <!--css input-->
+    <link href="CSS/about-us.css" rel="stylesheet"> <!--css input-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- JQuery -->
 </head>
 <body>

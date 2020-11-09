@@ -65,74 +65,82 @@
     </div>
     <div class="card" id="grid">
         <div class="card1">
-            <img src="pics/reptile/reptile1.png" alt="Reptile Food">
+            <img src="pics/reptile/reptile1.png" alt="Reptile Food" onclick="loadpage('product-detail.php?id=59')">
             <div class="card__info">
                 <h1 class="card__title">Reptile Food</h1>
                 <p class="card__price">$20</p>
                 <p class="cardtext">Some text about the very<br>interesting horse food<br>we have here</p>
+                <input type="number" id="quantity" name="quantity" data-id="59" value="1" min="1" max="5">
                 <button class="card__btn add-to-cart" data-id="59">ADD TO CART</button>
             </div>
         </div>
         <div class="card2">
-            <img src="pics/reptile/reptile1.png" alt="Reptile Food">
+            <img src="pics/reptile/reptile1.png" alt="Reptile Food" onclick="loadpage('product-detail.php?id=60')">
             <div class="card__info">
                 <h1 class="card__title">Reptile Food</h1>
                 <p class="card__price">$5</p>
                 <p class="card-text">Some text about the very<br>interesting horse food<br>we have here</p>
+                <input type="number" id="quantity" name="quantity" data-id="60" value="1" min="1" max="5">
                 <button class="card__btn add-to-cart" data-id="60">ADD TO CART</button>
             </div>
         </div>
         <div class="card3">
-            <img src="pics/reptile/reptile1.png" alt="Reptile Food" class="card__image">
+            <img src="pics/reptile/reptile1.png" alt="Reptile Food" class="card__image" onclick="loadpage('product-detail.php?id=61')">
             <div class="card__info">
                 <h1 class="card__title">Reptile Food</h1>
                 <p class="card__price">$10</p>
                 <p class="card-text">Some text about the very<br>interesting horse food<br>we have here</p>
+                <input type="number" id="quantity" name="quantity" data-id="61" value="1" min="1" max="5">
                 <button class="card__btn add-to-cart" data-id="61">ADD TO CART</button>
             </div>
         </div>
         <div class="card4">
-            <img src="pics/reptile/reptile1.png" alt="Reptile Food" class="card__image">
+            <img src="pics/reptile/reptile1.png" alt="Reptile Food" class="card__image" onclick="loadpage('product-detail.php?id=62')">
             <div class="card__info">
                 <h1 class="card__title">Reptile Food</h1>
                 <p class="card__price">$29</p>
                 <p class="card-text">Some text about the very<br>interesting horse food<br>we have here</p>
+                <input type="number" id="quantity" name="quantity" data-id="62" value="1" min="1" max="5">
                 <button class="card__btn add-to-cart" data-id="62">ADD TO CART</button>
             </div>
         </div>
         <div class="card5">
-            <img src="pics/reptile/reptile1.png" alt="Reptile Food" class="card__image">
+            <img src="pics/reptile/reptile1.png" alt="Reptile Food" class="card__image" onclick="loadpage('product-detail.php?id=63')">
             <div class="card__info">
                 <h1 class="card__title">Reptile Food</h1>
                 <p class="card__price">$13</p>
                 <p class="card-text">Some text about the very<br>interesting horse food<br>we have here</p>
+                <input type="number" id="quantity" name="quantity" data-id="63" value="1" min="1" max="5">
                 <button class="card__btn add-to-cart" data-id="63">ADD TO CART</button>
             </div>
         </div>
         <div class="card6">
-            <img src="pics/reptile/reptile1.png" alt="Reptile Food" class="card__image"> 
+            <img src="pics/reptile/reptile1.png" alt="Reptile Food" class="card__image" onclick="loadpage('product-detail.php?id=64')"> 
             <div class="card__info">
                 <h1 class="card__title">Reptile Food</h1>
                 <p class="card__price">$12</p>
                 <p class="card-text">Some text about the very<br>interesting horse food<br>we have here</p>
+                <input type="number" id="quantity" name="quantity" data-id="64" value="1" min="1" max="5">
                 <button class="card__btn add-to-cart"data-id="64">ADD TO CART</button>
             </div>
         </div>
         <div class="card7">
-            <img src="pics/reptile/reptile1.png" alt="Reptile Food" class="card__image">
+            <img src="pics/reptile/reptile1.png" alt="Reptile Food" class="card__image" onclick="loadpage('product-detail.php?id=65')">
             <div class="card__info">
                 <h1 class="card__title">Reptile Food</h1>
                 <p class="card__price">$14</p>
                 <p class="card-text">Some text about the very<br>interesting horse food<br>we have here</p>
+                <input type="number" id="quantity" name="quantity" data-id="65" value="1" min="1" max="5">
                 <button class="card__btn add-to-cart" data-id="65">ADD TO CART</button>
             </div>
         </div>
         <div class="card8">
-            <img src="pics/reptile/reptile1.png" alt="Reptile Food" class="card__image">
+            <img src="pics/reptile/reptile1.png" alt="Reptile Food" class="card__image" onclick="loadpage('product-detail.php?id=66')">
             <div class="card__info">
                 <h1 class="card__title">Reptile Food</h1>
                 <p class="card__price">$10</p>
                 <p class="card-text">Some text about the very<br>interesting horse food<br>we have here</p>
+                <input type="number" id="quantity" name="quantity" data-id="66" value="1" min="1" max="5">
                 <button class="card__btn add-to-cart" data-id="66">ADD TO CART</button>
             </div>
         </div>
