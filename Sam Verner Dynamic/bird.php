@@ -1,14 +1,5 @@
 
-<?php 
-
-include('libs/config.php'); 
-
-$q = "SELECT * FROM 'Product' WHERE id = 1";
-$r = mysqli_query($con, $q);
-
-$page = mysqli_fetch_assoc($r);
-
-?>
+<?php include('libs/config.php');?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -78,9 +69,9 @@ $page = mysqli_fetch_assoc($r);
         <div class="card1">
             <img src="pics/bird/bird1.jpg" alt="Bird Food" onclick="loadpage('product-detail.php?id=19')">
             <div class="card__info">
-                <h1 class="card__title"><?php echo $page['title'];?></h1>
+                <h1 class="card__title">Bird Food</h1>
                 <p class="card__price">$100</p>
-                <p class="card-text">Some text about the very<br>interesting horse food<br>we have here</p>
+                <p class="card-text"><?php echo $test1a['title'];?></p>
                 <input type="number" id="quantity" name="quantity" data-id="19" value="1" min="1" max="5">
                 <button class="card__btn add-to-cart" data-id="19">ADD TO CART</button>
             </div>
